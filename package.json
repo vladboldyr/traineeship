@@ -1,0 +1,34 @@
+{
+  "name": "getintime",
+  "version": "0.2.4",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "build": "cd android && ./gradlew assembleRelease"
+  },
+  "dependencies": {
+    "moment": "^2.14.1",
+    "react": "15.2.1",
+    "react-motion": "^0.4.4",
+    "react-native": "0.29.2",
+    "react-native-action-button": "^1.1.11",
+    "react-native-button": "^1.6.0",
+    "react-native-call-receiver": "*",
+    "react-native-checkbox": "^1.0.15",
+    "react-native-checkbox-field": "^1.1.0",
+    "react-native-contacts-android": "*",
+    "react-native-dropdown": "0.0.6",
+    "react-native-google-signin": "^0.8.0",
+    "react-native-item-checkbox": "^1.0.6",
+    "react-native-material-switch": "0.0.4",
+    "react-native-menu": "^0.20.1",
+    "react-native-modal-picker": "0.0.16",
+    "react-native-scrollable-tab-view": "^0.5.3",
+    "react-native-selectme": "^1.2.0",
+    "react-redux": "^4.4.5",
+    "react-swipeable-views": "^0.6.4",
+    "realm": "^0.14.3",
+    "redux": "^3.5.2",
+    "redux-thunk": "^2.1.0"
+  }
+}
